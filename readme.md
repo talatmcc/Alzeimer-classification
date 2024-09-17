@@ -19,7 +19,4 @@ Initial Test data Count:
 - `NonDemented` : 640
 <<<<<<< HEAD
 - `VeryMildDemented` : 448
-
-=======
 - `VeryMildDemented` : 448
->>>>>>> 0f0c72181d3441d03953227a418f58b7f431ea23
