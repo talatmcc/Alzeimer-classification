@@ -1,0 +1,13 @@
+zipfile36
+tensorflow
+h5py
+numpy
+keras
+scipy
+matplotlib
+seaborn
+opencv-python
+glob2
+scikit-learn
+imbalanced-learn
+imageio
