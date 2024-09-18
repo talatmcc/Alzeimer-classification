@@ -2,6 +2,12 @@
 
 - ## `dataset link` : https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/code?datasetId=457093&sortBy=voteCount
 
+- ### To load the  dataset in `google colab`
+- `pip install opendatasets --upgrade` 
+- `import opendatasets as od`
+- dataset_url = 'https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/code?datasetId=457093&sortBy=voteCount'
+- od.download('https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/code?datasetId=457093&sortBy=voteCount')
+
 - `MildDemented` : Individuals in this category show no signs of dementia. This is the control group used for comparison. **Not severe**.
 - `ModerateDemented` : This stage corresponds to what is often referred to as early-stage dementia or mild cognitive impairment (MCI).**Mild**, but starting to impact daily functioning.
 - `NonDemented` : At this stage, dementia is becoming more noticeable, and individuals may start requiring some assistance in their daily lives. **Moderate** (but still in the earlier stages of dementia).
@@ -17,6 +23,4 @@ Initial Test data Count:
 - `MildDemented` : 179
 - `ModerateDemented` : 12
 - `NonDemented` : 640
-<<<<<<< HEAD
-- `VeryMildDemented` : 448
 - `VeryMildDemented` : 448
