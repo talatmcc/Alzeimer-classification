@@ -7,10 +7,11 @@
 **Install the `opendatasets` package**:  
     Install the `opendatasets` library to download datasets from Kaggle.
    ```bash
-    `!pip install opendatasets --upgrade`
-    `import opendatasets as od`
+    !pip install opendatasets --upgrade
+    import opendatasets as od
     dataset_url = 'https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images'
     od.download(dataset_url)
+   ```bash
 
 - `MildDemented` : Individuals in this category show no signs of dementia. This is the control group used for comparison. **Not severe**.
 - `ModerateDemented` : This stage corresponds to what is often referred to as early-stage dementia or mild cognitive impairment (MCI).**Mild**, but starting to impact daily functioning.
