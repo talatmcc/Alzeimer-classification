@@ -4,8 +4,6 @@
 
 ## Steps to Load the Dataset in Google Colab
 
-**Install the `opendatasets` package**:  
-    Install the `opendatasets` library to download datasets from Kaggle.
    ```bash
     !pip install opendatasets --upgrade
     import opendatasets as od
