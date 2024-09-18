@@ -3,7 +3,7 @@
 - ## `dataset link` : https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/code?datasetId=457093&sortBy=voteCount
 
 - ### To load the  dataset in `google colab`
-- `pip install opendatasets --upgrade` 
+- `!pip install opendatasets --upgrade`
 - `import opendatasets as od`
 - dataset_url = 'https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/code?datasetId=457093&sortBy=voteCount'
 - od.download('https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images/code?datasetId=457093&sortBy=voteCount')
